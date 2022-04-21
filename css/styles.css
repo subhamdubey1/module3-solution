@@ -1,0 +1,97 @@
+body{
+	font-size: 16px;
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#header-nav{
+	border: 3px solid black;
+	border-radius: 0;
+	background-color: darkgray;
+}
+#header-nav .container{
+	padding: 0;
+	margin: 0;
+}
+#header-nav .container .navbar-header{
+	padding-left: 6%;
+	padding-right: 3%;
+	margin-right: 0;
+	margin-left: 0;
+}
+.container .navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: black;
+	font-weight: bold;
+	font-size:  1.8em;
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+h2, h4, p{
+	text-align: center;
+	font-weight: bold;
+}
+h4{
+	font-size: 1.3em;
+}
+.container{
+	font-family: 'Lora', serif;
+	color: black;
+	background-color: darkgray;
+}
+@media screen and (min-width:  992px){
+	.container {
+		width: auto;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.container {
+		width: auto;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+}
+@media screen and (max-width: 767px)
+{
+	.container {
+		width: auto;
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+}
+#nav-list a{
+	color: black;
+	text-align: center;
+	margin0: 0;
+	padding: 0;
+}
+.navbar-nav {
+    margin: -3.5px;
+}
+#nav-list a: hover{
+	color: black;
+}
+.navbar-header button.navbar-toggle, .nabvar-header .icon-bar{
+	border: 1px solid white;
+	margin-top: -35px;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+ul{
+	background-color: white;
+}
+li{
+	border: 2px solid black;
+	padding: 10px;
+}
+li span{
+	font-size: 18px;
+	font-weight: bold;
+}
